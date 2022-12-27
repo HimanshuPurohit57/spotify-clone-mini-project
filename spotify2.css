@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+  body{
+   background-color: antiquewhite;
+}
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    padding: 0;
+}
+ 
+nav ul{
+    color: white;
+     display: flex;
+      border-radius: 8px;
+     align-items: center;
+     list-style-type: none;
+     background-color: black;
+     height:55px;
+     padding-top:4px;
+     margin-bottom: 15px;
+     
+
+}
+nav ul li{
+    padding-top: 3px;
+    padding-left: 25px;
+}
+.navigationbar{
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 74px;
+  margin-bottom: 2cm;
+}
+.navigationbar img{
+    align-items: center;
+     padding-right: 5px;
+    width: 44px;
+    margin-top: 1px;
+}
+ .topsingers li{
+    color: black;
+    justify-content: center;
+    align-items: center;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+    list-style-type: none;
+
+}
+  
+ 
+.sing{
+    border-radius: 80px;
+     
+    background-color: rgb(243, 241, 241);
+    width: 400px;
+    height: 55px;
+     margin-right: 50px;
+    margin-left:  80px;
+     
+    margin-bottom: 20px;
+    display: flex;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: x-large;
+     font-variant: inherit;
+     align-items: center;
+      
+}
+.name-text-center{
+  align-content: center;
+    color: rgb(14, 1, 1);
+    font-family: 'Varela Round', sans-serif;
+    font-style: inherit;
+     font-size: large;
+    padding-top: 15px;
+    margin-right: 68px;
+    margin-bottom: 15px;
+      
+}
+.topsingers{
+    border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    color: black; 
+     margin-top: 25px;
+    margin-left: 300px;
+  margin-right:300px;
+    
+}
+.box{
+    margin-top: 20px;
+     display: flex;
+   background-image: url(bg.jpg);
+    border-radius: 50px;
+   min-height: 60vh;
+  min-width: 20%;
+   padding-top: 40px;
+}
+.sing img{
+  border-radius: 42px;
+  border-style: ridge;
+  height: 50px;
+    align-items:left;
+  display: flex;
+  justify-content: space-between;
+       margin-left: 10px;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       margin-right: 40px;
+      
+    
+     
+     
+}
+.sing i{
+  cursor: pointer;
+}
+.record img{
+  width: 270px;
+ border-radius: 180px;
+ background-color: black;
+ border-color: black;
+  height: fit-content;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  
+  transition: opacity 0.8s ease-in;
+}
+
+/* .sing input{
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: baseline;
+    border-style: hidden;
+    height:30px;
+    width: 45px;
+   background-color: rgb(0, 255, 136);
+    
+} */
+.bottom1{
+   
+  position: relative;
+   background-color: black;
+      
+   justify-content: center;
+   align-items: center;
+   display:flex-start;
+   color: aliceblue;
+    
+   
+   border-radius: 5px;
+   height: 85px;
+}
+.range{
+  width: 1000px;
+}
+
+ 
+.divmain {
+  display: flex;
+   
+ 
+}
+.gifi{
+  display: flex;
+  margin-right: 250px;
+  margin-left: 50px;
+}
+.gifi img{
+  height: 35px;
+  width: 60px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+   
+}
+
+.icons{
+  height: fit-content;
+  width:200px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+ .mastersongname{
+  justify-content: center;
+ align-content: center;
+ font-size: x-small;
+ margin-left: 10px;
+ margin-top: 10px;
+  
+  
+ }
+  .start{
+      
+      padding: auto;
+      padding-left: 2px;
+      padding-right: 2px;
+  }
+ 
+#progress{
+  cursor: pointer;
+  width:91%; 
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.fontawesome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: chartreuse;
+}
+
+@media only screen and (max-width: 1252px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
